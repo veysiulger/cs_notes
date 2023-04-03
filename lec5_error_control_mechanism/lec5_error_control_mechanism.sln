@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lec5_error_control_mechanism", "lec5_error_control_mechanism.csproj", "{BF5EA883-0765-4FBB-B7A7-EED644D74588}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF5EA883-0765-4FBB-B7A7-EED644D74588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF5EA883-0765-4FBB-B7A7-EED644D74588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF5EA883-0765-4FBB-B7A7-EED644D74588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF5EA883-0765-4FBB-B7A7-EED644D74588}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3EE80382-07C8-42BA-A2A1-9000DCABD0E6}
+	EndGlobalSection
+EndGlobal
