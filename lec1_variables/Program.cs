@@ -18,7 +18,12 @@ namespace lec1_variables
              */
             #endregion
 
-            #region Degisken Turleri
+            #region String Interpolation Ozelligi
+			int varAa=12;	
+			Console.WriteLine($" varAa= {varAa} ",varAa);
+            Console.WriteLine($"{0},{1}","str1","str2");
+			#endregion
+			#region Degisken Turleri
             /* Priimitive Type: Deger turlu degisken. Degisken, RAM uzerinde 
              * tutulurken degisken turu bildirilmelidir.
              * Reference Type(Referans Turlu Degiskenler): RAM uzerinde, nesnelerin

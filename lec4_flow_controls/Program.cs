@@ -35,6 +35,17 @@ namespace lec4_flow_controls
                     Console.WriteLine("hic eslesme yoktur");
                     break;
             }
+            //Farkli bir switch kullanimi://c# 8.0 uyumlu ise.
+            int numb = 4;
+            string numText = numb switch
+            {
+                1 or 2 => "test1",
+                3 => "test2",
+                4 => "test3",
+                >=5 and <=8 => "test4",
+                _ => "error!"
+            };
+            Console.WriteLine(numText);
             #endregion
 
             #region if-else
@@ -59,15 +70,16 @@ namespace lec4_flow_controls
             #region Type Pattern
 
             object x = "500";
-            if(x is int varX)
+            if (x is int varX)
             {   //x int ise, varX=x olur.
                 Console.WriteLine($"x degiskeni int tipindedir.");
-            }else if (x is string varY)
+            }
+            else if (x is string varY)
             {
                 //x str ise, varY=x olur.   
                 Console.WriteLine($"x degiskeni bir string'tir.");
             }
-           
+
 
             #endregion
 
