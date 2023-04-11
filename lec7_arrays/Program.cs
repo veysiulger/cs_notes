@@ -55,6 +55,21 @@ namespace lec7_arrays
                 Console.WriteLine("\n");
             };
             #endregion
+
+            #region Object Array
+            /* Farkli turde verileri icinde barindirabilir. 
+             */
+            object[] arr={ 1, 'e', 3.14, "London" };
+
+            #endregion
+
+            #region Dynamic Array
+            dynamic[] alues = {1,3.14,"Istanbul" };
+            #endregion
+            
+
+                
+
         }
     }
 }
