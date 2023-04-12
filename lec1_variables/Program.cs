@@ -23,6 +23,7 @@ namespace lec1_variables
 			Console.WriteLine($" varAa= {varAa} ",varAa);
             Console.WriteLine($"{0},{1}","str1","str2");
 			#endregion
+
 			#region Degisken Turleri
             /* Priimitive Type: Deger turlu degisken. Degisken, RAM uzerinde 
              * tutulurken degisken turu bildirilmelidir.
@@ -168,6 +169,16 @@ namespace lec1_variables
              */
             #endregion
 
+            #region Null ve Empty
+            /* NULL: Bir degisken/nullable/referans null ile tanimlanmissa, o degisken 
+             * bellekte alan tahsis etmemistir. 
+             * 
+             * EMPTY: Bir degisken/nullable/referans empty ile tanimlanmissa, o degiskenin 
+             * degeri yoktur ancak bellekte alan kaplar.
+             * 
+             */
+            string strA = string.Empty;
+            #endregion
         }
 
     }

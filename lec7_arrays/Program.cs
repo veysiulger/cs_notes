@@ -11,16 +11,36 @@ namespace lec7_arrays
         static void Main(string[] args)
         {
             #region 1. tip dizi tanimlama
+            int[] arr0 = new int[5];
+            arr0[0] = 1;
+
+            Console.WriteLine("arr0: " + arr0[0]);
+
+            #endregion
+
+            #region 2. tip dizi tanimlama
             int[] arr1 = { 10, 20, 30, 40, 50 };
 
             Console.WriteLine("arr1: " + arr1.GetValue(4));
 
             #endregion
 
-            #region 2. tip dizi tanimlama
-            int[] arr2 = new int[5] { 1, 2, 3, 4, 5 };
+            #region 3. tip dizi tanimlama
+            int[] arr2 = new int[] { 1, 2, 3, 4, 5 };
 
             Console.WriteLine("arr2: " + arr2.GetValue(4));
+            #endregion
+
+            #region 4. tip dizi tanimlama
+            int[] arr3 = new int[5] { 1, 2, 3, 4, 5 };
+
+            Console.WriteLine("arr3: " + arr3.GetValue(4));
+            #endregion
+
+            #region 5. tip dizi tanimlama
+            int[] arr4 = new[] { 1, 2, 3, 4, 5 };
+
+            Console.WriteLine("arr4: " + arr4.GetValue(4));
             #endregion
 
             #region multiarray =>3x3 matris
@@ -59,16 +79,23 @@ namespace lec7_arrays
             #region Object Array
             /* Farkli turde verileri icinde barindirabilir. 
              */
-            object[] arr={ 1, 'e', 3.14, "London" };
+            object[] arr = { 1, 'e', 3.14, "London" };
 
             #endregion
 
             #region Dynamic Array
-            dynamic[] alues = {1,3.14,"Istanbul" };
+            dynamic[] alues = { 1, 3.14, "Istanbul" };
             #endregion
-            
 
-                
+            #region Array Sinifi
+            /* Array sinifindan int tipinde, bir dizi turettik. 
+             * Array sinifinin belirli metot ve ozelliklerini kullanabiliriz.
+             * Indexer operatorunu kullanamayiz. Metotlar kullaniriz.
+             */
+            Array students = new int[5] {1,2,3,4,5};
+
+            #endregion
+
 
         }
     }
