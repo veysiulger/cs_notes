@@ -94,6 +94,15 @@ namespace lec2_type_conversion
             Console.WriteLine("A'nin ascii kodu: " + a_ascii + "\n" + "ascii 34:  " + varChar);
 
             #endregion
+
+            #region TryParse
+            /* Eger girilen deger, int'e donusebiliyorsa, isParsed true olur ve 
+             * girilen deger number'a atanir. 
+             */
+            int number;
+            bool isParsed = int.TryParse(Console.ReadLine(),out number);
+            
+            #endregion
         }
     }
 }
