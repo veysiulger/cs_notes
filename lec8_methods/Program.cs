@@ -85,6 +85,17 @@ namespace lec8_methods
         }
         #endregion
 
+        #region Params (Degisken Sayida Parametre)
+        public static int showMessage(params int[] values)
+        {
+            int sum = 0;
+            foreach (int i in values)
+            {
+                sum = sum + i;
+            }
+            return sum;
+        }
+        #endregion 
         static void Main(string[] args)
         {
             string str = "Hello World!";
@@ -136,6 +147,18 @@ namespace lec8_methods
             int[] my_arr = { 1, 2, 3, 4, 5 };
             ref int newMyNumb = ref valueWithRefReturn(my_arr);
             Console.WriteLine("ref return operation: " + newMyNumb);
+            #endregion
+
+            #region Params
+            int values11 = showMessage(3, 1);
+            int values22 = showMessage(3, 4, 5);
+
+
+            Console.WriteLine(values11);
+            Console.WriteLine(values22);
+            ;
+
+
             #endregion
             Console.Read();
         }
